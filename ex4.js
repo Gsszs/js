@@ -17,5 +17,3 @@ if (media >= 7.0) {
 } else {
     console.log("REPROVADO")
 }
-
-console.log(media)
