@@ -10,9 +10,9 @@
 let valor = parseFloat(prompt("Digite o valor da compra"))
 desconto = 0
 
-if (valor >= 200.00) {
+if (valor > 200.00) {
     desconto = (valor * 0.20)
-} else if (total > 100.00) {
+} else if (total > 100.00 && total <= 200.00) {
     desconto = (valor * 0.10)
 }
 
