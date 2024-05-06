@@ -15,9 +15,9 @@ let altura = parseFloat(prompt("Digite sua altura em metros"))
 
 let IMC = peso / (altura ** 2)
 
-if (IMC < 18.5) {
+if (IMC < 18.5) { // apenas abaixo de 18.5 ou seja 18.4 para menos
     console.log("Abaixo do peso")
-} else if (IMC < 24.9) {
+} else if (IMC < 24.9) { // de 18.5 até 24.9 pois o if anterior foi de menor que 18.5
     console.log("Peso normal")
 } else if (IMC < 29.9) {
     console.log("Sobrepeso")
