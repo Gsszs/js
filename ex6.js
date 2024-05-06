@@ -11,4 +11,4 @@ if (ano - data >= 18) {
     console.log("Menor de idade")
 }
 
-console.log("Você tem: " + (ano - data))
+console.log("Você tem " + (ano - data) + " anos")
