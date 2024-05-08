@@ -3,6 +3,8 @@
 
 let num = parseInt(prompt("Digite um número para a tabuada"))
 
-for (let cont = 1; cont <= 10; cont++){
-    console.log(cont + " x " + num + " = " + (cont * num))
+if (!isNaN(num)){
+    for (let cont = 1; cont <= 10; cont++){
+        console.log(cont + " x " + num + " = " + (cont * num))
+    }
 }
