@@ -1,7 +1,7 @@
 let repetir = true
 
 while (repetir) {
-    let escolha = parseInt(prompt("DIGITE UM NÚMERO PARA CADA EXERCÍCIO\n0 - Sair\n1 - Exercicio para sair ao digitar 0\n2 - Somar números de 1 a 100\n3 - Imprime números ímpares de 1 a 50\n4 - Faz a méda aritmética de 4 notas de um aluno\n5 - Faz a contagem de um número digitado até 0\n6 - Calcula o IMC de uma pessoa"))
+    let escolha = parseInt(prompt("DIGITE UM NÚMERO PARA CADA EXERCÍCIO\n\n0 - Sair\n\n1 - Exercicio para sair ao digitar 0\n2 - Somar números de 1 a 100\n3 - Imprime números ímpares de 1 a 50\n4 - Faz a méda aritmética de 4 notas de um aluno\n5 - Faz a contagem de um número digitado até 0\n6 - Calcula o IMC de uma pessoa\n"))
 
     if (isNaN(escolha)){
         console.log("Digite apenas números!")
